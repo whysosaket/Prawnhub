@@ -10,13 +10,13 @@ const PictureTile = (props) => {
     <Image width={300} height={150} src={link} />
     </div>
     <div className='text-sm flex justify-between'>
-        {src}
+        <span className='text-white'>{src}</span>
         <span className='flex'>
             <span className='my-auto'> <AiFillEye /> </span>
             {views}
         </span>
     </div>
-    <h1>{title.slice(0,30)}...</h1>
+    <h1 className='text-white'>{title.slice(0,30)}...</h1>
     </div>
   )
 }

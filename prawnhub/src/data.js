@@ -12,4 +12,16 @@ const prawnImages = [
 
 // {title: "", src: "istockphoto", views: "12.5M", link: ""},
 
-export {prawnImages}
+const Categories = [
+    {title: "Prawns Videos", link: "/prawns"},
+    {title: "fried prawns", link: "/prawns"},
+    {title: "prawns recipes", link: "/prawns"},
+    {title: "red prawns", link: "/prawns"},
+    {title: "prawns pictures", link: "/prawns"},
+    {title: "prawns videos", link: "/prawns"},
+    {title: "seafood", link: "/prawns"},
+    {title: "raw prawns", link: "/prawns"},
+    {title: "prawns", link: "/prawns"},
+]
+
+export {prawnImages, Categories}
