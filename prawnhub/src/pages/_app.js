@@ -1,3 +1,6 @@
+import Navbar from '@/components/Navbar'
+import Networkbar from '@/components/Networkbar'
+import Tabs from '@/components/Tabs'
 import '@/styles/globals.css'
 import Head from 'next/head'
 
@@ -10,6 +13,9 @@ export default function App({ Component, pageProps }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/logo.webp" />
   </Head>
+  <Networkbar />
+  <Navbar />
+  <Tabs />
   <Component {...pageProps} />
   </>
   )
