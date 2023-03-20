@@ -12,9 +12,9 @@ export default function Home() {
     <>
       
       
-      <h1 className='text-white font-bold text-xl mx-28'>Hot Prawn Dishes in India 🇮🇳</h1>
+      <h1 className='text-white font-bold text-xl md:mx-28 text-center md:text-start'>Hot Prawn Dishes in India 🇮🇳</h1>
 
-      <div className='flex flex-wrap my-4 ml-28'>
+      <div className='md:flex md:flex-wrap my-4 md:ml-28 hidden'>
       {
         Categories.map((item, index)=>{
           return (

@@ -6,8 +6,8 @@ const PictureTile = (props) => {
     const {title, link, views, src} = props;
   return (
     <div className='overflow-hidden w-72 text-gray-400'>
-    <div className='mx-auto'>
-    <Image width={300} height={150} src={link} />
+    <div className='mx-auto h-48 overflow-hidden'>
+    <Image width={300} height={150} src={link} alt={title} />
     </div>
     <div className='text-sm flex justify-between'>
         <span className='text-white'>{src}</span>
