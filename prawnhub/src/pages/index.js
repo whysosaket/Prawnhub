@@ -14,7 +14,7 @@ export default function Home() {
       
       <h1 className='text-white font-bold text-xl md:mx-28 text-center md:text-start'>Hot Prawn Dishes in India 🇮🇳</h1>
 
-      <div className='md:flex md:flex-wrap my-4 md:ml-28 hidden'>
+      <div className='md:flex md:flex-wrap my-4 md:ml-28 hidden select-none'>
       {
         Categories.map((item, index)=>{
           return (

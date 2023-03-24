@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 
 const Tabs = () => {
 
-  const tabCSS = "border-b-4 border-b-dark hover:border-b-primary cursor-pointer text-center py-2 px-4";
+  const tabCSS = "border-b-4 border-b-dark hover:border-b-primary cursor-pointer text-center py-2 px-4 select-none";
   const [activeTab, setActiveTab] = useState('Home');
 
   const handleTabClick = (event) => {
@@ -13,8 +13,8 @@ const Tabs = () => {
   }
 
   return (
-    <div className='bg-dark text-white mx-4 my-4 flex justify-center'>
-    <table className='w-full font-bold md:visible hidden'>
+    <div className='bg-dark text-white mx-4 my-4 md:flex hidden justify-center'>
+    <table className='w-full font-bold'>
       <thead>
         <tr>
         <td className={`${tabCSS} border-b-primary`}>Home</td>

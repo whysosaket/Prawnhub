@@ -17,10 +17,11 @@ const Navbar = () => {
     <>
     <div className="w-screen bg-dark text-gray-400 text-sm">
         <div className='flex md:justify-start justify-center py-1'>
-            <Image src="/logo.webp" width={200} height={100} />
-            <div className="w-2/5 h-8 my-auto ml-12">
+            <Image src="/logo.webp" className='cursor-pointer' alt='logo' width={200} height={100} />
+            <div className="w-2/5 flex h-8 my-auto ml-12">
             {/* <span className="absolute"><AiOutlineSearch /></span> */}
             <input className="w-full hidden md:block bg-gray-800 text-gray-400 rounded-md my-auto p-2" type="text" placeholder={`Search Prawnhub`} />
+            <button className="hidden md:block text-gray-300 -my-1 p-2"><BiSearchAlt2 size={30} /></button>
             </div>
             <div className="w-1/5 h-8 md:flex my-auto ml-8 font-semibold hidden">
                 <button className="bg-gray-800 flex text-white rounded-md my-auto p-2"> 
