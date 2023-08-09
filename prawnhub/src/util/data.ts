@@ -28,7 +28,6 @@ const Categories = [
     {title: "prawns videos", link: "/prawns"},
     {title: "seafood", link: "/prawns"},
     {title: "raw prawns", link: "/prawns"},
-    {title: "prawns", link: "/prawns"},
 ]
 
 export {prawnImages, Categories}
